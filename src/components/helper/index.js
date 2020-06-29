@@ -86,7 +86,7 @@ export default class Helper extends PureComponent {
     };
 
     return (
-      <Animated.Text style={[styles.text, style, textStyle]}>
+      <Animated.Text style={[styles.text, textStyle]}>
         {text}
       </Animated.Text>
     );
