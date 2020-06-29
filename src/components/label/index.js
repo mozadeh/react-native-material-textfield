@@ -58,6 +58,7 @@ export default class Label extends PureComponent {
       errorColor,
       baseColor,
       tintColor,
+      style,
       focusAnimation,
       labelAnimation,
       ...props
