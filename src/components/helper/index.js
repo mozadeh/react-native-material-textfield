@@ -62,7 +62,6 @@ export default class Helper extends PureComponent {
   render() {
     let { errored, opacity } = this.state;
     let {
-      style,
       title,
       error,
       disabled,
