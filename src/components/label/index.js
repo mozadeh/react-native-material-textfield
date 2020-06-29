@@ -58,7 +58,6 @@ export default class Label extends PureComponent {
       errorColor,
       baseColor,
       tintColor,
-      style,
       focusAnimation,
       labelAnimation,
       ...props
@@ -110,7 +109,7 @@ export default class Label extends PureComponent {
 
     return (
       <Animated.View style={[styles.container, containerStyle]}>
-        <Animated.Text style={[styles.text, style, textStyle]} {...props}>
+        <Animated.Text style={[styles.text, textStyle]} {...props}>
           {label}
         </Animated.Text>
       </Animated.View>
